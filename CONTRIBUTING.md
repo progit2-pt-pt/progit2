@@ -1,62 +1,59 @@
-# Contributing to Pro Git (2nd Edition)
+# Contribuindo com o Pro Git (2ª Edição)
 
 
-## Licensing
+## Licença
 
-By opening a pull request to this repository, you agree to provide your work under the [project license](LICENSE.asc).
-Also, you agree to grant such license of your work as is required for the purposes of future print editions to @ben and @schacon.
-Should your changes appear in a printed edition, you'll be included in the [contributors list](book/contributors.asc).
+Ao abrirrs um pull request neste repositório, tu concordas em fornecer o teu trabalho sob a [licença do projeto](LICENSE.asc).
+Além disso, tu concordas em conceder tal licença no teu trabalho, se for necessário para o objetivo de futuras edições impressas, para o @ben e o @schacon.
+Caso as tuas alterações apareçam numa versão impressa, tu serás incluído na [lista de contribuidores](book/contributors.asc).
 
-## Signaling an Issue
+## Sinalizando um Problema
 
-Before signaling an issue, please check that there isn't already a similar one in the bug tracking system.
+Antes de sinalizar um problema, verifica se não existe uma similar no sistema de rastreamento de bugs.
 
-Also, if this issue has been spotted on the git-scm.com site, please cross-check that it is still present in the pdf version.
-The issue may have already been corrected, but the changes have not been deployed yet.
+Além disso, se este problema foi detectado no site git-scm.com, verifica novamente se ainda está presente na versão em pdf.
+O problema pode já ter sido corrigido, mas as alterações ainda não foram implantadas.
 
-## Small Corrections
+## Pequenas Correções
 
-Errata and basic clarifications will be accepted if we agree that they improve the content.
-You can also open an issue so we can figure out how or if it needs to be addressed.
+Erratas e esclarecimentos básicos serão aceites se nós concordarmos que melhorarão o conteúdo. Tu também podes abrir uma discussão (issue), desta forma poderemos descobrir como, ou se, ela precisa de tratamento.
 
-If you've never done this before, the [flow guide](https://guides.github.com/introduction/flow/) might be useful.
+Se nunca tiveres feito isto, este [guia de fluxo](https://guides.github.com/introduction/flow/) pode ser útil.
 
-## Large Rewrites
+## Grandes Reescritas
 
-Open an issue for discussion before you start.
-These changes tend to be very subjective, often only clarifying things for some small percentage of people and it's rarely worth the time to accept them.
-Professional copy editors have already reviewed this content multiple times so while you may have somewhat better taste and grammar than we do it's unlikely that your prose is going to be *so* much better that it's worth changing vast swaths of text.
+Abre uma issue para discussão antes de começar. 
+Estas alterações tendem a ser bem subjetivas, frequentemente esclarecendo coisas apenas para uma pequena prrcentagem de pessoas e, raramente, valem a pena depois de tudo. 
+Editores profissionais já revistos este conteúdo múltiplas vezes, assim, mesmo que tu tenhas, de alguma forma, um gosto superior ou uma melhor gramática do que a nossa, dificilmente o teu texto venha a ser *tão* melhor que até valha a pena mudar grandes partes do projeto.
 
-## Figures
+## Figuras
 
-The images in this book were generated using [Sketch 3](http://bohemiancoding.com/sketch/), with the [included sketchbook file](diagram-source/progit.sketch).
+As imagens neste livro foram geradas usando o [Sketch 3](http://bohemiancoding.com/sketch/), com este [arquivo de  sketchbook](diagram-source/progit.sketch).
 
-To add a figure:
+Para adicionar uma figura:
 
-1. Add a page to the sketchbook.
-Try to use the included symbols wherever possible.
-2. Add a "slice" to your page.
-Give it a name that matches the destination PNG filename, relative from the root of the source directory.
-3. Make sure your slice is set to export at "800w".
+1. Adiciona uma página no sketchbook. 
+Tenta usar os símbolos incluídos sempre que possível.
+2. Adiciona um "slice" na tua página. 
+Dá-lhe um nome que corresponda ao arquivo PNG destino, relativo à raiz do diretório fonte.
+1. Garante que o teu "slice" está configurado para exportação como "800w"
 
 
-## Translations
+## Tranduções
 
-Translations to other languages are highly encouraged but handled a little differently than the first edition.
-We now keep each translation in a separate repository.
+As traduções para outros idiomas são fortemente encorajadas, mas tratadas de forma um pouco diferente da primeira edição. Agora, mantemos cada tradução num repositório separado e compilamos os arquivos de saída automaticamente usando a ferramenta Atlas. Isto era algo bem difícil de fazer na última edição.
 
-Since each translation is a different repository, we can also have different maintainers for each project.
-The Pro Git team simply pulls them in and builds them for the translation teams on the git-scm.com website.
+Como as traduções estão num repositório diferente, também podemos ter mantenedores diferentes para cada projeto. A equipa do Pro Git simplesmente junta-os e compila tudo para as equipas de tradução. Para sofrer compilação automática, os repositórios das traduções precisam de estar dentro de git-scm.com website.
 
-### Existing Projects
+### Projetos existentes
 
-If you wish to help at translating Progit 2nd edition to your
-language, first check already existing projects and get in touch with
-the people in charge of them if there's already one.
+Se pretendes ajudar a traduzir a edição 2 da Progit para o teu
+idioma, primeiro verifica os projetos já existentes e entra em contato com
+as pessoas que se encontram ao cargo deles se já existir uma.
 
-Existing projects include:
+Os projetos existentes incluem:
 
-  Language   |   Project
+  Idiomas   |   Projetos
 ------------ | -------------
 Беларуская  | [progit/progit2-be](https://github.com/progit/progit2-be)
 Čeština    | [progit-cs/progit2-cs](https://github.com/progit-cs/progit2-cs)
@@ -82,16 +79,16 @@ Türkçe   | [progit/progit2-tr](https://github.com/progit/progit2-tr)
 简体中文  | [progit/progit2-zh](https://github.com/progit/progit2-zh)
 正體中文  | [progit/progit2-zh-tw](https://github.com/progit/progit2-zh-tw)
 
-### Your Language does not Exist
+### A Tua Linguagem Não Existe
 
-Then you're lucky! You're gonna be the initiator of a new translation project!
+Então estas com sorte! Tu serás o que vai iniciar um novo projeto de tradução!
 
-You can start to make your own version with the second edition in English, available here. To do so,
+Tu podes começar a fazer a tua própria versão com a segunda edição em inglês, disponível aqui. Para fazer isso,
 
- 1. Pick your the [ISO 639 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) and create a GitHub organization, say `progit2-[your code]` on github
- 2. Create a project progit2
- 3. Copy the structure of progit/progit2 (this project) in your project and start translating. You can reuse some material from the first edition, but beware that:
-    1. the text has been reworked in numerous parts
-    2. the markup has changed from markdown to [asciidoc](http://asciidoc.org)
- 4. Push to the new repo a few translated chapters
- 5. Ping an organizer so that the second edition of Progit in your language is pushed on git-scm.com.
+ 1. Escolhe o teu [ISO 639 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) e cria uma organização GitHub, que diga `progit2-[your code]` no github
+ 2. Cria um projeto progit2
+ 3. Copia a estrutura do progit/progit2 (este projeto) no teu projeto e começa a traduzir. Podes reutilizar algum material da primeira edição, mas tem cuidado com isto:
+    1. o texto foi reformulado em várias partes
+    2. a marcação mudou de markdown para [asciidoc](http://asciidoc.org)
+ 4. pressiona para o novo repo alguns capítulos traduzidos
+ 5. Segue um organizador para que a segunda edição do Lucro no teu idioma seja pressionada git-scm.com.

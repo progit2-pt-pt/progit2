@@ -3,13 +3,13 @@
 
 ## Licença
 
-Ao abrirrs um pull request neste repositório, tu concordas em fornecer o teu trabalho sob a [licença do projeto](LICENSE.asc).
-Além disso, tu concordas em conceder tal licença no teu trabalho, se for necessário para o objetivo de futuras edições impressas, para o @ben e o @schacon.
-Caso as tuas alterações apareçam numa versão impressa, tu serás incluído na [lista de contribuidores](book/contributors.asc).
+Ao abrires um pull request neste repositório, concordas em fornecer o teu trabalho sob a [licença do projeto](LICENSE.asc).
+Além disso, concordas em conceder tal licença no teu trabalho, se for necessário para o objetivo de futuras edições impressas, para o @ben e o @schacon.
+Caso as tuas alterações apareçam numa versão impressa, serás incluído na [lista de contribuidores](book/contributors.asc).
 
-## Sinalizando um Problema
+## Sinalizar um Problema
 
-Antes de sinalizar um problema, verifica se não existe uma similar no sistema de rastreamento de bugs.
+Antes de sinalizar um problema, verifica se não existe um similar no sistema de rastreamento de bugs.
 
 Além disso, se este problema foi detectado no site git-scm.com, verifica novamente se ainda está presente na versão em pdf.
 O problema pode já ter sido corrigido, mas as alterações ainda não foram implantadas.
@@ -34,7 +34,7 @@ Para adicionar uma figura:
 
 1. Adiciona uma página no sketchbook. 
 Tenta usar os símbolos incluídos sempre que possível.
-2. Adiciona um "slice" na tua página. 
+2. Adiciona um "slice" na tua página.
 Dá-lhe um nome que corresponda ao arquivo PNG destino, relativo à raiz do diretório fonte.
 1. Garante que o teu "slice" está configurado para exportação como "800w"
 
